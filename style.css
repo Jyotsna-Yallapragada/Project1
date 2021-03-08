@@ -1,0 +1,128 @@
+/* body {
+  color: white i !important;
+  background-color: black !important;
+} */
+.ShutdownBanner__Icon svg {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+}
+.info, .Description{
+  padding-left: 50px;
+}
+.Description a {
+  color: #ff9e9e;
+  text-decoration: underline;
+}
+
+.Description a:link {
+  color: #ff9e9e;
+  text-decoration: underline;
+}
+
+.Description a:visited {
+  color: #95acff;
+  text-decoration: underline;
+}
+
+.Banner {
+  background-color: #70100a;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.Banner .container {
+  position: relative;
+}
+
+.header-logo {
+  background-image: url(/npslogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 35px;
+  width: 30px;
+}
+
+.header-text {
+  font-size: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-left: 0.75rem;
+  padding-top: 3px;
+  padding-top: 0.1875rem;
+  display: block;
+  float: left;
+}
+
+.search-icon {
+  padding-left: 600px;
+  display: inline-flex;
+}
+
+.search-icon h6 {
+  padding-left: 10px;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.menu-header {
+  color: white;
+  background-color: black;
+}
+
+.img-back {
+  position: relative;
+  height: 350px;
+  background-image: url(/image-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 950px;
+  }
+}
+
+.feature-image {
+  width: inherit;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+}
+
+/* .img2{
+    height: 250px;
+} */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin: 15px 0 8px;
+  margin: .9375rem 0 .5rem;
+  position: relative;
+  transition: background-color .4s ease;
+}
+
+#hero #imgBanner {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  width: 100%;
+}
+
+.imgText {
+  padding: 13px 0 13px 0 !important;
+}
